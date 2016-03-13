@@ -1,6 +1,6 @@
 # ubunut 15 saves about 50MB over ubuntu stable
-FROM ubuntu:15.10
-MAINTAINER Joey Baker <joey@byjoeybaker.com>
+FROM debian:8
+MAINTAINER Jason Addington <jason@addington.com>
 
 ENV SYNCTHING_VERSION 0.12.20
 
@@ -38,4 +38,3 @@ RUN chmod 770 /srv/start.sh
 ENV UID=1027
 
 ENTRYPOINT ["/srv/start.sh"]
-
