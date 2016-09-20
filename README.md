@@ -4,7 +4,7 @@ Run syncthing from a docker container
 
 ## Install
 ```sh
-docker pull joeybaker/syncthing
+docker pull jaecen/docker-syncthing
 ```
 
 ## Usage
