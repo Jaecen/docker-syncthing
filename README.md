@@ -1,4 +1,4 @@
-# docker-syncthing [![Docker Pulls](https://img.shields.io/docker/pulls/joeybaker/syncthing.svg)](https://registry.hub.docker.com/u/joeybaker/syncthing/)
+# docker-syncthing [![Docker Pulls](https://img.shields.io/docker/pulls/jaecen/docker-syncthing.svg?maxAge=2592000)](https://hub.docker.com/r/jaecen/docker-syncthing)
 
 Run syncthing from a docker container
 
