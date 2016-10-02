@@ -1,4 +1,4 @@
-# docker-syncthing [![Docker Pulls](https://img.shields.io/docker/pulls/jaecen/docker-syncthing.svg?maxAge=2592000)](https://hub.docker.com/r/jaecen/docker-syncthing)
+# docker-syncthing [![Docker Pulls](https://img.shields.io/docker/pulls/jaecen/docker-syncthing.svg?maxAge=2592000)](https://hub.docker.com/r/jaecen/docker-syncthing) [![](https://images.microbadger.com/badges/image/jaecen/docker-syncthing.svg)](https://microbadger.com/images/jaecen/docker-syncthing "Get your own image badge on microbadger.com")
 
 Run syncthing from a docker container
 
@@ -24,3 +24,4 @@ If you want to add a new folder, make sure you set the path to something in `/sr
 
 ## Developing
 You can run `run.sh` to restart the bud-ssl terminator and syncthing. Any push to this repo will auto-update the docker image on docker hub.
+ 
