@@ -1,6 +1,6 @@
 # docker-syncthing [![Docker Pulls](https://img.shields.io/docker/pulls/jaecen/docker-syncthing.svg?maxAge=2592000)](https://hub.docker.com/r/jaecen/docker-syncthing) [![](https://images.microbadger.com/badges/image/jaecen/docker-syncthing.svg)](https://microbadger.com/images/jaecen/docker-syncthing "Get your own image badge on microbadger.com")
 
-Run syncthing from a docker container
+Run [syncthing](https://syncthing.net) from a docker container
 
 ## Install
 ```sh
