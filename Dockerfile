@@ -2,7 +2,7 @@
 FROM debian:8
 MAINTAINER Jason Addington <jason@addington.com>
 
-ENV SYNCTHING_VERSION 0.14.6
+ENV SYNCTHING_VERSION 0.14.20
 
 RUN apt-get update \
   && apt-get upgrade -y --no-install-recommends \
@@ -38,3 +38,4 @@ RUN chmod 770 /srv/start.sh
 ENV UID=1027
 
 ENTRYPOINT ["/srv/start.sh"]
+
