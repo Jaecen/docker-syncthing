@@ -15,7 +15,7 @@ docker run -d --restart=always \
   -v /srv/syncthing:/srv/config \
   -p 22000:22000  -p 21025:21025/udp -p 8080:8080 \
   --name syncthing \
-  joeybaker/syncthing
+  jaecen/docker
 ```
 
 If you want to add a new folder, make sure you set the path to something in `/srv/data`.
