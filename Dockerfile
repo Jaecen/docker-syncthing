@@ -31,7 +31,7 @@ RUN curl -L -o syncthing.tar.gz https://github.com/syncthing/syncthing/releases/
   && mkdir -p /srv/data
 
 VOLUME ["/srv/data", "/srv/config"]
-EXPOSE 8384 2200 21027
+EXPOSE 8384 22000 21027
 
 ADD ./start.sh /srv/start.sh
 RUN chmod 770 /srv/start.sh
